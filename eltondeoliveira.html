@@ -167,43 +167,126 @@
       </div>
     </section>
 
-    <!-- Projetos Recentes -->
+<!-- ===================================== -->
+<!-- Projetos - Abordagem Modular -->
+<!-- ===================================== -->
+
+   <!-- ===================================== -->
+<!-- Projetos - Versão com Abas -->
+<!-- ===================================== -->
     <section id="projects" class="py-5 bg-dark">
       <div class="container">
-        <div class="text-center mb-5" data-aos="fade-up">
-          <h2 class="section-title">Projetos Recentes</h2>
-          <p class="text-muted">Exemplos de trabalhos sob demanda e ghostwriting</p>
+        <!-- Navegação por Abas -->
+        <div class="tabs-wrapper mb-5" data-aos="fade-up">
+          <ul class="nav nav-tabs border-0 justify-content-center">
+            <li class="nav-item">
+              <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#escrita">Escrita</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#redes-sociais">Redes Sociais</button>
+            </li>
+          </ul>
         </div>
 
-        <div class="row g-4">
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card project-card">
-              <img src="https://picsum.photos/seed=project1/600/400 " class="card-img-top" alt="Projeto 1" />
-              <div class="card-body">
-                <h5 class="card-title">Documentação Técnica</h5>
-                <p class="card-text text-muted">
-                  Criação de documentação detalhada para APIs em ambiente de desenvolvimento ágil.
-                </p>
-                <span class="badge-neon">Tecnologia</span>
+        <!-- Conteúdo das Abas -->
+        <div class="tab-content">
+          <!-- ABA 1: ESCRITA -->
+          <div class="tab-pane fade show active" id="escrita">
+            <div class="row g-4">
+              <!-- Artigo Blog -->
+              <div class="col-md-6" data-aos="zoom-in">
+                <div class="project-card h-100">
+                  <div class="card-header d-flex justify-content-between align-items-center mb-3">
+                    <span class="badge-platform">Blog Post</span>
+                    <small class="text-muted">1.200 palavras</small>
+                  </div>
+                  <h5>Guia Completo de SEO Técnico</h5>
+                  <p class="text-muted mb-4">Análise de arquitetura de informação e taxonomia para e-commerces...</p>
+                  <a href="#" class="btn btn-outline-light btn-sm">Ver artigo completo</a>
+                </div>
+              </div>
+
+              <!-- E-book -->
+              <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                <div class="project-card h-100">
+                  <div class="card-header d-flex justify-content-between align-items-center mb-3">
+                    <span class="badge-platform">E-book</span>
+                    <small class="text-muted">PDF • 42 páginas</small>
+                  </div>
+                  <h5>Inteligência Artificial na Escrita</h5>
+                  <p class="text-muted mb-4">Manual prático para redatores modernos com estudos de caso...</p>
+                  <div class="d-flex gap-2">
+                    <a href="#" class="btn btn-outline-light btn-sm">Pré-visualizar</a>
+                    <a href="#" class="btn btn-neon btn-sm"><i class="fas fa-download"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Roteiro -->
+              <div class="col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                <div class="project-card h-100">
+                  <div class="card-header d-flex justify-content-between align-items-center mb-3">
+                    <span class="badge-platform">Roteiro</span>
+                    <small class="text-muted">Vídeo • 5min</small>
+                  </div>
+                  <h5>Tutorial: Configuração de API</h5>
+                  <p class="text-muted mb-4">Narração passo-a-passo para vídeo educativo corporativo...</p>
+                  <a href="#" class="btn btn-outline-light btn-sm">Ver transcrição</a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="card project-card">
-              <img src="https://picsum.photos/seed=project2/600/400 " class="card-img-top" alt="Projeto 2" />
-              <div class="card-body">
-                <h5 class="card-title">Conteúdo SEO</h5>
-                <p class="card-text text-muted">
-                  Produção de artigos otimizados para mecanismos de busca em nichos técnicos.
-                </p>
-                <span class="badge-neon">Marketing Digital</span>
+
+          <!-- ABA 2: REDES SOCIAIS -->
+          <div class="tab-pane fade" id="redes-sociais">
+            <div class="row g-4">
+              <!-- Post Instagram -->
+              <div class="col-md-6" data-aos="zoom-in">
+                <div class="social-card instagram">
+                  <div class="card-header">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                      <i class="fab fa-instagram fa-lg" style="color: #E1306C;"></i>
+                      <small>@tecnologia_hoje</small>
+                    </div>
+                    <img src="https://picsum.photos/600/400?random=1" class="card-img-top" alt="Post Instagram">
+                  </div>
+                  <div class="card-body">
+                    <p class="ig-caption">"A evolução da IoT está reinventando nosso cotidiano 🌐 #Tecnologia #Inovação"</p>
+                    <div class="engagement">
+                      <span class="me-3">❤️ 2.1K</span>
+                      <span>💬 84</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Post LinkedIn -->
+              <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                <div class="social-card linkedin">
+                  <div class="card-header">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                      <i class="fab fa-linkedin fa-lg" style="color: #0A66C2;"></i>
+                      <small>Elton de Oliveira</small>
+                    </div>
+                    <div class="linkedin-content">
+                      <h5>Lições de 10 anos como redator freelancer</h5>
+                      <p class="text-muted">Descubra como manter consistência e qualidade em projetos complexos...</p>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <span class="">127 reações • 42 comentários</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
+   
+   
+   
+   
     <!-- Contato -->
     <section id="contact" class="py-5">
       <div class="container">
@@ -262,5 +345,6 @@
         document.querySelector(".navbar").classList.toggle("scrolled", window.scrollY > 50);
       });
     </script>
+    
   </body>
 </html>

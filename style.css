@@ -364,3 +364,68 @@ font-size: 2.25rem;
 font-size: 1rem;
 }
 }
+
+/* ===== ESTILOS COMPLEMENTARES ===== */
+/* Abas Personalizadas */
+.nav-tabs .nav-link {
+  color: var(--text-light);
+  border: none;
+  position: relative;
+}
+
+.nav-tabs .nav-link.active {
+  background: transparent;
+  color: var(--primary);
+}
+
+.nav-tabs .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  transition: width 0.3s;
+}
+
+.nav-tabs .nav-link.active::after {
+  width: 100%;
+}
+
+/* Cards Especializados */
+.social-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.social-card:hover {
+  transform: translateY(-5px);
+}
+
+.instagram .card-img-top {
+  border-radius: 12px 12px 0 0;
+  height: 300px;
+  object-fit: cover;
+}
+
+.linkedin-content {
+  padding: 1.25rem;
+}
+
+.ig-caption {
+  font-style: italic;
+  border-left: 3px solid var(--primary);
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
+/* Badges Contextuais */
+.badge-platform {
+  background: rgba(255,255,255,0.1);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85em;
+}
