@@ -204,6 +204,13 @@ pointer-events: none;
 mix-blend-mode: overlay; /* Cria efeito de luz "por cima" do texto */
 }
 
+.btn {
+  /* Centralização do conteúdo */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .btn-neon:hover::before {
 opacity: 0.2;
 }
