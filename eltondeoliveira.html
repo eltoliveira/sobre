@@ -41,7 +41,7 @@
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
           aria-label="Menu mobile">
-          <span class="navbar-toggler-icon z-index: 1000;"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
 
         <!-- Itens de Navegação -->
@@ -94,18 +94,18 @@
           <div class="col-md-6" data-aos="fade-left">
             <h2 class="section-title">Sobre Mim</h2>
             <p class="mb-3">
-              Com formação em Letras pela Unicamp e <strong>10+ anos de experiência como freelancer</strong>, desenvolvi
-              uma abordagem estratégica para produção de conteúdo com foco em
-              <strong>direitos autorais cedidos</strong> e entregas sob demanda.
+              Profissional com formação em Letras pela Unicamp e
+              <strong>10+ anos criando conteúdos estratégicos sob demanda</strong>. Combinando expertise linguística com
+              entendimento técnico alinhado com equipes de Desenvolvimento e de Marketing.
             </p>
             <p class="mb-4">
-              Capaz de realizar abordagens interdisciplinares, permitindo atuar em áreas como redação técnica,
-              desenvolvimento web, SEO avançado, adaptação, tradução e revisão, mantendo a confidencialidade quando
-              necessário (projetos em regime de ghostwriting).
+              Atuação multidisciplinar em <strong>redação técnica para SEO</strong>, adaptação de conteúdos cross-mídia
+              e projetos em regime de ghostwriting. Tradução especializada e revisão criteriosa, sempre alinhada às
+              especificações técnicas de plataformas digitais e fluxos de produção.
             </p>
             <p class="mb-4">
-              Projetos com <strong>relatórios de desempenho detalhados</strong> e flexibilidade jurídica: desde
-              contratações <strong>PJ</strong> até regime <strong>CLT</strong>. 
+              Modelos contratuais flexíveis (PJ ou CLT). Expertise em converter briefings técnicos em narrativas
+              acessíveis, garantindo integração perfeita entre conteúdo e infraestrutura digital.
             </p>
 
             <!-- Botões -->
@@ -129,7 +129,6 @@
               <span class="badge-custom d-inline-flex align-items-center">
                 <i class="fas fa-shield-alt text-primary me-2"></i>Confidencialidade Garantida
               </span>
-              
             </div>
           </div>
         </div>
@@ -138,7 +137,7 @@
 
     <!-- Expertise -->
     <section
-      id="expertise" 
+      id="expertise"
       class="parallax py-3"
       style="
         background-image: url(&quot;https://cdn.pixabay.com/photo/2018/12/18/22/38/background-3883199_1280.jpg&quot;);
@@ -146,8 +145,9 @@
       <div class="container pb-5">
         <div class="text-center mb-5">
           <h2 class="section-title">Conteúdo Para Gerar Resultados</h2>
+
           <p class="">
-            Redação técnica, estratégica e persuasiva: do SEO ao storytelling, transformo ideias em autoridade digital.
+            Redação técnica, estratégica e persuasiva: do storytelling ao SEO técnico, transformo ideias em autoridade digital.
           </p>
         </div>
 
@@ -155,22 +155,24 @@
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="card p-4 h-100">
               <i class="fas fa-laptop-code card-icon"></i>
-              <h5 class="fw-bold mb-2">Tecnologia & Desenvolvimento</h5>
+              <h5 class="fw-bold mb-2">Redação & Conteúdo</h5>
               <p class="">
-                Documentações técnicas, APIs, frameworks, linguagens de programação e soluções em cloud computing.
+                Ghostwriting, redação técnica, científica, jornalística e produção de conteúdo digital otimizado (SEO).
               </p>
             </div>
           </div>
+
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="card p-4 h-100">
               <i class="fas fa-pen-nib card-icon"></i>
-              <h5 class="fw-bold mb-2">Redação & Conteúdo</h5>
+              <h5 class="fw-bold mb-2">Tecnologia & Desenvolvimento</h5>
               <p class="">
-                Ghostwriting, redação técnica, científica, jornalística e produção de conteúdo digital otimizado para
-                SEO.
+                Produção de documentações técnicas para APIs, frameworks, linguagens de programação e soluções em cloud
+                computing.
               </p>
             </div>
           </div>
+
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
             <div class="card p-4 h-100">
               <i class="fas fa-globe card-icon"></i>
@@ -336,7 +338,7 @@
       </div>
     </section>
 
-    <!-- Contato -->
+<!-- Contato -->
     <section id="contact" class="py-5">
       <div class="container">
         <div class="row">
@@ -348,19 +350,19 @@
 
         <div class="row justify-content-center">
           <div class="col-md-8">
-            <form data-aos="fade-up" data-aos-delay="100">
+            <form id="whatsappForm" data-aos="fade-up" data-aos-delay="100">
               <div class="row g-3">
                 <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="Seu nome" required />
+                  <input type="text" id="nome" class="form-control" placeholder="Seu nome" required>
                 </div>
                 <div class="col-md-6">
-                  <input type="email" class="form-control" placeholder="Seu email" required />
+                  <input type="email" id="email" class="form-control" placeholder="Seu email" required>
                 </div>
                 <div class="col-12">
-                  <textarea class="form-control" rows="5" placeholder="Mensagem" required></textarea>
+                  <textarea id="mensagem" class="form-control" rows="5" placeholder="Mensagem" required></textarea>
                 </div>
                 <div class="col-12 text-center">
-                  <button type="submit" class="btn btn-neon btn-lg px-5">Enviar Mensagem</button>
+                  <button type="submit" class="btn btn-neon btn-lg px-5">Enviar</button>
                 </div>
               </div>
             </form>
@@ -369,21 +371,24 @@
       </div>
     </section>
 
-    <!-- Rodapé -->
+<!-- Rodapé -->
     <footer class="py-4">
       <div class="container text-center">
         <p class="mb-0 text-muted">
           Desenvolvido por mim com muito <span class="text-primary" style="position: relative; top: -2px">❤️</span>
-          <!-- Opcional: adicionar tooltip ou link para página de créditos -->
         </p>
         <div class="mt-3">
-          <a href="#" class="social-link me-3"><i class="fab fa-linkedin fa-lg"></i></a>
-          <a href="#" class="social-link me-3"><i class="fab fa-github fa-lg"></i></a>
-          <a href="#" class="social-link"><i class="fab fa-twitter fa-lg"></i></a>
+          <a href="https://linkedin/in/eltondeoliveira" class="social-link me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+          <a href="https://github.com/eltoliveira/" class="social-link me-3"><i class="fab fa-github fa-lg"></i></a>
+          <a href="https://wa.me/5519996125657" class="social-link"><i class="fab fa-whatsapp fa-lg"></i></a>
+        </div>
+
+        <!-- Nova seção adicionada -->
+        <div class="mt-4">
+          <p class="text-muted mb-1">Elton de Oliveira | 2025</p>
         </div>
       </div>
     </footer>
-
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -399,13 +404,26 @@
     </script>
     <script>
       // Fechar menu mobile ao clicar em links
-      document.querySelectorAll('.nav-link').forEach(link => {
-        link.addEventListener('click', () => {
-          const navbarCollapse = document.getElementById('navbarNav');
-          if (navbarCollapse.classList.contains('show')) {
+      document.querySelectorAll(".nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          const navbarCollapse = document.getElementById("navbarNav");
+          if (navbarCollapse.classList.contains("show")) {
             bootstrap.Collapse.getInstance(navbarCollapse).hide();
           }
         });
+      });
+    </script>
+    <script>
+      document.getElementById('whatsappForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const nome = encodeURIComponent(document.getElementById('nome').value);
+        const email = encodeURIComponent(document.getElementById('email').value);
+        const mensagem = encodeURIComponent(document.getElementById('mensagem').value);
+
+        const texto = `Novo contato:%0A%0ANome: ${nome}%0AEmail: ${email}%0AMensagem: ${mensagem}`;
+
+        window.open(`https://wa.me/5591996125657?text=${texto}`, '_blank');
       });
     </script>
   </body>
